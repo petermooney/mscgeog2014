@@ -3,7 +3,7 @@
 <ol>
 
 <li>
-<b>Learn more about Leaflet Mapping</b> <a href = "http://leafletjs.com/>http://leafletjs.com/</a>. Leaflet is a modern open-source JavaScript library for mobile-friendly interactive maps. Leaflet will be used as the mapping container for all our maps in these workshops. 
+<b>Learn more about Leaflet Mapping</b> <a href = "http://leafletjs.com/">http://leafletjs.com/</a>. Leaflet is a modern open-source JavaScript library for mobile-friendly interactive maps. Leaflet will be used as the mapping container for all our maps in these workshops. 
 </li>
 
 <li>
