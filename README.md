@@ -10,11 +10,18 @@ This is a short 2 x 2 hour workshop for Introduction to Web Mapping and Internet
 </p>
 
 <p>
-The course is delivered by <b>Dr. Peter Mooney</b> (<a href = "http://www.peterm7.com/mobile/me/">Web Page</a>). The course assumes no prior knowledge of web server technologies, Javascript, or programming. 
+The course is delivered by <b>Dr. Peter Mooney</b> (<a href = "http://www.peterm7.com/mobile/me/">Web Page</a>). The course assumes no prior knowledge of web server technologies, Javascript, or programming. At the end of the second workshop the entire lecture notes in PDF and Open Document Format will be uploaded to this GitHUB respository. 
 </p>
 
 
+<P>
+<H3>List of useful Internet links for the course</h3>
+
 <ol>
+
+<li>
+<b>GetLatLong</b> - a nice web-based utility to find the Lat Long of any location. <a href = "http://dbsgeo.com/latlon/">http://dbsgeo.com/latlon/</a>
+</li>
 
 <li>
 <b>Learn more about Leaflet Mapping</b> <a href = "http://leafletjs.com/">http://leafletjs.com/</a>. Leaflet is a modern open-source JavaScript library for mobile-friendly interactive maps. Leaflet will be used as the mapping container for all our maps in these workshops. 
@@ -36,6 +43,10 @@ Full size EPA Horizon2020 Map: http://erc.epa.ie/h2020catalogue/mapFull.php
 </li>
 
 <li>
+<b>GeoJSON.io</b> - a great web-based application which allows you to create your own GeoJSON files <a href = "geojson.io">geojson.io</a>
+</li>
+
+<li>
 US Geological Survey: Earthquake Hazards Program
 
 GeoJSON feeds. 
@@ -45,3 +56,5 @@ GeoJSON feeds.
 </li>
 
 </ol>
+
+</P>
