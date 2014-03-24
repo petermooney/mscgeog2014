@@ -1,3 +1,17 @@
+<h1>Introduction to Web Mapping and Internet GIS</h1>
+
+<h2>March 2014</h2>
+
+<h3>Department of Geography NUI Maynooth</h3>
+
+<p>
+This is a short 2 x 2 hour workshop for Introduction to Web Mapping and Internet GIS. The workshop course is designed to provide a gentle introduction to 'getting maps on web-pages'. There is a focus on using open source tools and open source software on data. We will use OpenStreetMap maps and data, Leaflet for our map Javascript, and look to open data sources for other data. 
+
+</p>
+
+<p>
+The course is delivered by <b>Dr. Peter Mooney</b> (<a href = "http://www.peterm7.com/mobile/me/">Web Page</a>). The course assumes no prior knowledge of web server technologies, Javascript, or programming. 
+</p>
 
 
 <ol>
