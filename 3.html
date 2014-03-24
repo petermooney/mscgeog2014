@@ -1,0 +1,69 @@
+<html>
+<head>
+	<title>This is the title of your webpage</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- this line makes sure that the scale of your device is understood
+	by the browser -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- This is our leaflet mapping imports -->
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+
+	<!-- BOOTSTRAP  -->
+	<!-- This helps us create a device responsive webpage -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+	<!-- JQuery is a very popular library used to provide functionality for many other 
+	Javascript libraries -->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	
+	<!-- Normalize is used to further ensure your pages look the same on all browsers and devices -->
+	<link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+	
+</head>
+<body>
+<div class="container">
+<div class = "row">
+<div class = "col-xs-12	col-sm-12	col-md-10	col-lg-8">
+
+
+	<h1>My third web-based Map!</h1>
+	<h2>Some Luas stops in Dublin</h2>
+	<div id="map" style="width: 100%; height: 100%"></div>
+
+
+	<script>
+		<!-- this is the center of the map and the zoom level -->
+		var map = L.map('map').setView([53.34530871461457, -6.2721650622552269], 15);
+
+		var MapQuestOpen_OSM = L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpeg', {
+	attribution: 'Tiles Courtesy of <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+	subdomains: '1234'
+	}).addTo(map);
+	
+	var museum = L.marker([53.34792828641171, -6.287013771361671]).addTo(map);
+	var smithfield = L.marker([ 53.34715972457336, -6.2779479048913345]).addTo(map);
+	var fourcourts = L.marker([ 53.34690353421498, -6.273699285811745]).addTo(map);	
+	var jervis = L.marker([53.34772333794288, -6.265341522521339]).addTo(map);	  
+	
+	
+	museum.bindPopup("<b>This is the Museum Luas Stop</b>");
+	smithfield.bindPopup("<b>This is the Smithfield Luas Stop</b>");
+	fourcourts.bindPopup("<b>This is the Four Courts Luas Stop</b>");	
+	jervis.bindPopup("<b>This is the Luas stop at Jervis</b>: Get off here for shopping");	
+	
+	</script>	
+
+
+</div> <!-- class -->
+</div> <!-- row -->
+</div> <!-- end div -->
+</body>
+</html>
+

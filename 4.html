@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>This is the title of your webpage</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- this line makes sure that the scale of your device is understood
+	by the browser -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- This is our leaflet mapping imports -->
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+
+	<!-- BOOTSTRAP  -->
+	<!-- This helps us create a device responsive webpage -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+	<!-- JQuery is a very popular library used to provide functionality for many other 
+	Javascript libraries -->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	
+	<!-- Normalize is used to further ensure your pages look the same on all browsers and devices -->
+	<link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+	
+</head>
+<body>
+<div class="container">
+<div class = "row">
+<div class = "col-xs-12	col-sm-12	col-md-10	col-lg-8">
+
+
+	<h1>My fourth web-based Map!</h1>
+	<h2>The INTEL Campus at Leixlip</h2>
+	<h3>Learning to use polygons</h3>
+	<div id="map" style="width: 100%; height: 100%"></div>
+
+
+	<script>
+		<!-- this is the center of the map and the zoom level -->
+		var map = L.map('map').setView([53.37244944078806, -6.518617155379616], 15);
+
+		var MapQuestOpen_OSM = L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpeg', {
+	attribution: 'Mapquest and OSM',	subdomains: '1234'
+	}).addTo(map);
+	
+	var INTEL = L.polygon([
+		[53.37471631332996, -6.529539110488258],
+		[53.37268087414204, -6.519110681838356],
+		[53.37009482997908, -6.5080599806969985],
+		[53.37287290086236, -6.506171705550514],
+		[53.37603481636035, -6.517115118331276],
+		[53.3774812824388, -6.516407015151344],
+		[53.378543699679156, -6.520548345870338],
+		[53.378850899724235, -6.529024126357399],
+		[53.37471631332996, -6.529539110488258],
+	]).addTo(map);
+	
+	INTEL.bindPopup("<h1>This is the world famous INTEL Campus at Leixlip</h1>. This polygon shows an outline of the campus area");	
+	
+	</script>	
+
+
+</div> <!-- class -->
+</div> <!-- row -->
+</div> <!-- end div -->
+</body>
+</html>
+

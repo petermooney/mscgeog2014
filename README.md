@@ -21,6 +21,13 @@ EPA Horizon2020 Visitor Map
 Full size EPA Horizon2020 Map: http://erc.epa.ie/h2020catalogue/mapFull.php
 </li>
 
+<li>
+US Geological Survey: Earthquake Hazards Program
 
+GeoJSON feeds. 
+
+<a href = "http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php">Access GeoJSON feeds relating to Earthquake Hazards</a>
+
+</li>
 
 </ol>

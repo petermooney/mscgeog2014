@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pierre City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.36148071289062,
+          44.37172320734172
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rapid City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.23989868164062,
+          44.09744824027576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dupree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6015625,
+          45.048057252189565
+        ]
+      }
+    }
+  ]
+}
