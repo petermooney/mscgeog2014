@@ -1,0 +1,75 @@
+<h1>Introduction to Web Mapping and Internet GIS</h1>
+
+<h2>March 2014</h2>
+
+<h3>Department of Geography NUI Maynooth</h3>
+
+<p>
+This is a short 2 x 2 hour workshop for Introduction to Web Mapping and Internet GIS. The workshop course is designed to provide a gentle introduction to 'getting maps on web-pages'. There is a focus on using open source tools and open source software on data. We will use OpenStreetMap maps and data, Leaflet for our map Javascript, and look to open data sources for other data. The workshop assumes that you have <b>XAMPP</b> (<a href = "http://www.apachefriends.org/index.html">http://www.apachefriends.org/index.html</a> installed to provide a web-server environment and a text editor such as Geany <a href = "http://www.geany.org/">http://www.geany.org/</a>. The workshop notes and slides make reference to MS Windows path names - these can be easily changed for Linux and MAC installations of XMAPP - please refer to the XAMPP documentation for details. 
+
+</p>
+
+<p>
+The course is delivered by <b>Dr. Peter Mooney</b> (<a href = "http://www.peterm7.com/mobile/me/">Web Page</a>). The course assumes no prior knowledge of web server technologies, Javascript, or programming. At the end of the second workshop the entire lecture notes in PDF and Open Document Format will be uploaded to this GitHUB respository. 
+</p>
+
+
+<P>
+<H3>List of useful Internet links for the course</h3>
+
+<ol>
+
+<li>
+<b>GetLatLong</b> - a nice web-based utility to find the Lat Long of any location. <a href = "http://dbsgeo.com/latlon/">http://dbsgeo.com/latlon/</a>
+</li>
+
+<li>
+<b>Learn more about Leaflet Mapping</b> <a href = "http://leafletjs.com/">http://leafletjs.com/</a>. Leaflet is a modern open-source JavaScript library for mobile-friendly interactive maps. Leaflet will be used as the mapping container for all our maps in these workshops. 
+</li>
+
+<li>
+<b>Want different map layer styles from OpenStreetMap data in Leaflet?</b>
+<a href = "http://leaflet-extras.github.io/leaflet-providers/preview/">http://leaflet-extras.github.io/leaflet-providers/preview/</a>
+
+</li>
+
+<li>
+
+EPA Horizon2020 Visitor Map
+
+<a href = "http://erc.epa.ie/h2020catalogue/map2.php">http://erc.epa.ie/h2020catalogue/map2.php</a>
+
+Full size EPA Horizon2020 Map: http://erc.epa.ie/h2020catalogue/mapFull.php
+</li>
+
+<li>
+<b>GeoJSON.io</b> - a great web-based application which allows you to create your own GeoJSON files <a href = "geojson.io">geojson.io</a>
+</li>
+
+<li>
+US Geological Survey: Earthquake Hazards Program
+
+GeoJSON feeds. 
+
+<a href = "http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php">Access GeoJSON feeds relating to Earthquake Hazards</a>
+
+</li>
+
+<li>
+Visibone Color Lab: For help picking out the HEX values of Colors: http://www.visibone.com/colorlab/
+</li>
+
+<li>
+Leaflet and Google: http://matchingnotes.com/javascripts/leaflet-google.js   http://bl.ocks.org/crofty/2197701 http://matchingnotes.com/using-google-map-tiles-with-leaflet
+
+https://raw.githubusercontent.com/shramov/leaflet-plugins/master/layer/tile/Google.js
+</li>
+
+
+<li>
+OpenStreetMap - Shapefiles for the entire world - updated every hour. GeoFabrik. http://download.geofabrik.de/ - free and open data to download. The GeoJSON files for this workshop were created from these Shapefiles. 
+</li>
+
+</ol>
+
+</P>

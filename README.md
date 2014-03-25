@@ -5,7 +5,7 @@
 <h3>Department of Geography NUI Maynooth</h3>
 
 <p>
-This is a short 2 x 2 hour workshop for Introduction to Web Mapping and Internet GIS. The workshop course is designed to provide a gentle introduction to 'getting maps on web-pages'. There is a focus on using open source tools and open source software on data. We will use OpenStreetMap maps and data, Leaflet for our map Javascript, and look to open data sources for other data. 
+This is a short 2 x 2 hour workshop for Introduction to Web Mapping and Internet GIS. The workshop course is designed to provide a gentle introduction to 'getting maps on web-pages'. There is a focus on using open source tools and open source software on data. We will use OpenStreetMap maps and data, Leaflet for our map Javascript, and look to open data sources for other data. The workshop assumes that you have <b>XAMPP</b> (<a href = "http://www.apachefriends.org/index.html">http://www.apachefriends.org/index.html</a> installed to provide a web-server environment and a text editor such as Geany <a href = "http://www.geany.org/">http://www.geany.org/</a>. The workshop notes and slides make reference to MS Windows path names - these can be easily changed for Linux and MAC installations of XMAPP - please refer to the XAMPP documentation for details. 
 
 </p>
 
@@ -52,6 +52,27 @@ US Geological Survey: Earthquake Hazards Program
 GeoJSON feeds. 
 
 <a href = "http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php">Access GeoJSON feeds relating to Earthquake Hazards</a>
+
+</li>
+
+<li>
+Visibone Color Lab: For help picking out the HEX values of Colors: http://www.visibone.com/colorlab/
+</li>
+
+<li>
+Leaflet and Google: http://matchingnotes.com/javascripts/leaflet-google.js   http://bl.ocks.org/crofty/2197701 http://matchingnotes.com/using-google-map-tiles-with-leaflet
+
+https://raw.githubusercontent.com/shramov/leaflet-plugins/master/layer/tile/Google.js
+</li>
+
+
+<li>
+OpenStreetMap - Shapefiles for the entire world - updated every hour. GeoFabrik. http://download.geofabrik.de/ - free and open data to download. The GeoJSON files for this workshop were created from these Shapefiles. 
+</li>
+
+<li>
+
+NASA Imagery http://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2014-03-25
 
 </li>
 
